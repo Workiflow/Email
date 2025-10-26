@@ -1,0 +1,12 @@
+node_modules
+.pnpm-store
+.next
+out
+.env
+.env.local
+.vscode
+.DS_Store
+coverage
+playwright-report
+artifacts
+.supabase

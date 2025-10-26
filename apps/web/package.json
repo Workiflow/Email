@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "0.10.0",
+    "@supabase/auth-helpers-react": "0.5.7",
+    "@supabase/supabase-js": "2.43.1",
+    "@tanstack/react-query": "5.28.9",
+    "@ui/inbox": "workspace:*",
+    "@shared/inbox": "workspace:*",
+    "class-variance-authority": "0.7.0",
+    "date-fns": "3.2.0",
+    "googleapis": "126.0.1",
+    "isomorphic-dompurify": "2.12.0",
+    "nanoid": "5.0.7",
+    "next": "14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.51.2",
+    "tailwind-merge": "2.2.1",
+    "zod": "3.22.4",
+    "@radix-ui/react-dialog": "1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.35",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.4.2"
+  }
+}
