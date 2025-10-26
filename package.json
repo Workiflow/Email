@@ -1,0 +1,23 @@
+{
+  "name": "shared-inbox-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "playwright": "playwright test",
+    "db:generate-types": "pnpm --filter db run generate-types",
+    "db:migrate": "pnpm --filter db run migrate",
+    "db:seed": "pnpm --filter db run seed"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "playwright": "1.42.1",
+    "tsx": "4.7.1",
+    "typescript": "5.4.2",
+    "vitest": "1.3.1"
+  }
+}
